@@ -1,0 +1,165 @@
+body {
+	margin:0;
+	/*outline:solid 1px #6AA3FF;*/
+	background-color:#D6D6CE;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.b-wrapper {
+	width:1000px;
+	outline:inherit;
+	background-color:#ABABAB;
+	margin:0 auto;
+}
+.b-blockquote {
+	height: 75px;
+	font-style: italic;
+	background-image: url(../img/myVCard_blockquote_img.png);
+	background-repeat: repeat-x; 
+}
+.b-blockquote-item {
+	margin-left:450px;
+	padding:10px 70px 20px 0;
+}
+.b-blockquote-item .author {
+	margin-left:300px;
+}
+.b-header {
+	width:1000px;
+	height: 250px;
+	outline:inherit;
+	position: relative;
+}
+
+.b-content {
+	width:1000px;
+	outline:inherit;
+	position: relative;
+}
+.b-footer {
+	height: 40px;
+	outline:inherit;
+	clear: both;
+	padding-top:10px;
+	background-image: url(../img/myVCard_footer_img.png);
+	background-repeat: repeat-x; 
+
+}
+.b-footer-copyright {
+	margin-left:70px;
+	font-size:14px;
+}
+.b-header-name {
+	width:680px;
+	height: 150px;
+	outline:inherit;
+	float: left;
+	padding-left:20px
+
+}
+.vcard {
+	padding:10px 20px;
+	background-image: url(../img/myVCard_vcard_img.png);
+	background-repeat: repeat-x; 
+	height: 130px;
+	border-radius: 8px;
+}
+.vcard .fn {
+	font-size:23px;
+}
+.vcard .country-name {
+	font-size:20px;
+}
+.vcard .locality {
+	font-size:18px;
+}
+.b-header-tender {
+	width:680px;
+	height: 80px;
+	outline:inherit;
+	float: left;
+	padding-left:20px;
+	padding-top:20px;
+}
+.b-header-tender-item {
+	padding-top:10px;
+	padding-left:20px;
+	outline:inherit;
+	height: 50px;
+	background-image: url(../img/myVCard_tender_img.png);
+	background-repeat: repeat-x; 
+	border-radius: 8px;
+}
+.b-header-tender-item-title{
+	font-size:20px;
+}
+
+.b-header-foto {
+	width:300px;
+	height: 250px;
+	outline:inherit;
+	float: right;
+}
+.b-header-foto-item {
+	width:209px;
+	height:240px;
+	margin-left:35px;
+	border: outset 5px #d4d4d4;
+}
+.b-content-menu {
+	width:300px;
+	outline:inherit;
+	float: left;
+}
+.b-content-rightSiteBar {
+	width:300px;
+	outline:inherit;
+	float: right;
+}
+.b-content-text {
+	width:400px;
+	outline:inherit;
+	float: left;
+}
+.b-content-text-item {
+	padding:10px 10px;
+	background-image: url(../img/myVCard_contentText_img.png);
+	background-repeat: repeat-y; 
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+dd{
+	font-style: italic;
+	font-size:14px;
+	font-weight: lighter;
+}
+dt{
+	font-style:italic;
+	font-size:14px;
+	font-weight: bolder;
+}
+#item_specialQuestion {
+	display: none;
+	
+}
+ul {
+	padding-left:20px;
+}
+li {
+	list-style-type: none;
+}
+button {
+	cursor: pointer;
+	width:250px;
+	font-size:16px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.b-content-rightSiteBar-item-content{
+	display: none;
+	width:230px;
+	padding:10px;
+	background-image: url(../img/myVCard_leftSBar_img.png);
+	background-repeat: repeat-y; 
+	border-radius: 8px;
+}
+
+
